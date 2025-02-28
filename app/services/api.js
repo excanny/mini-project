@@ -33,22 +33,22 @@ export const fetchJobRecommendations = async () => {
   };
   
   // Submit a job application
-  export const submitJobApplication = async (jobId, coverLetter = '') => {
-    // In a real app, this would be an API call
-    // const response = await fetch('/api/jobs/apply', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({ jobId, coverLetter })
-    // });
-    // return response.json();
+//   export const submitJobApplication = async (jobId, coverLetter = '') => {
+//     // In a real app, this would be an API call
+//     // const response = await fetch('/api/jobs/apply', {
+//     //   method: 'POST',
+//     //   headers: { 'Content-Type': 'application/json' },
+//     //   body: JSON.stringify({ jobId, coverLetter })
+//     // });
+//     // return response.json();
     
-    // For demonstration, we'll simulate an API call
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve({ success: true, message: 'Application submitted successfully' });
-      }, 1000);
-    });
-  };
+//     // For demonstration, we'll simulate an API call
+//     return new Promise((resolve) => {
+//       setTimeout(() => {
+//         resolve({ success: true, message: 'Application submitted successfully' });
+//       }, 1000);
+//     });
+//   };
   
   // Get skill recommendations based on missing skills
   export const getSkillRecommendations = async (missingSkills) => {
